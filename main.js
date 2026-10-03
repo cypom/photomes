@@ -94,6 +94,7 @@ const renderer = new THREE.WebGLRenderer({ antialias: false, powerPreference: "h
 const isTouch = matchMedia("(pointer: coarse)").matches;
 renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, isTouch ? 1.25 : 1.5));
 renderer.setSize(innerWidth, innerHeight);
+renderer.setClearColor(BG_COLOR, 1);
 document.body.appendChild(renderer.domElement);
 const canvas = renderer.domElement;
 
