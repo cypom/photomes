@@ -6,7 +6,7 @@ import * as THREE from "three";
    留空 = 使用淺灰占位圖。照片數量不夠時會自動循環重複。 */
 const PHOTOS = Array.from({ length: 27 }, (_, i) => `photo${i + 1}.jpg`);
 
-const BG_COLOR = 0x#3E2022;
+const BG_COLOR = 0x3E2022;
 const CHUNK_SIZE = 50;          // 每個立方體區塊邊長
 const PLANES_PER_CHUNK = 5;     // 每個區塊的圖片數
 const RENDER_DISTANCE = 1;      // 1 → 3×3×3 = 27 個區塊
