@@ -4,7 +4,7 @@ import * as THREE from "three";
    之後放自己的照片：把圖片丟進 /photos，並把檔名寫進下面的陣列，例如：
    const PHOTOS = ["photos/01.jpg", "photos/02.jpg"];
    留空 = 使用淺灰占位圖。照片數量不夠時會自動循環重複。 */
-const PHOTOS = [];
+const PHOTOS = ["photo1.jpg", "photo2.jpg", "photo3.jpg", "photo4.jpg", "photo5.jpg", "photo6.jpg", "photo7.jpg", "photo8.jpg"];
 
 const BG_COLOR = 0xf2f2f0;
 const CHUNK_SIZE = 50;          // 每個立方體區塊邊長
